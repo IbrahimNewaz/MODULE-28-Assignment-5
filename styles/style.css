@@ -1,15 +1,15 @@
 /* 🟦🟦Project Shared styles🟦🟦 */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
-    width: 92%;
-    height: 100%;
-    margin: auto;
-    border: solid 2px red;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 /* fonts hind madurai  */
@@ -31,13 +31,16 @@
 /* _________________________________________________________________________________________________________ */
 
 /* 🟩🟦nav bar styles🟦🟩 */
-nav {
-    max-width: 1920px;
-    height: 100px;
+.nav {
+
     background-color: white;
+
 }
 
 .navbar {
+
+    margin-top: 10px;
+    padding: 25px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,14 +54,17 @@ nav {
 }
 
 .left-side img {
-    width: 65px;
+    width: 25%;
+    max-width: 90px;
+    height: auto;
+
 }
 
 .nav-h1 {
     font-size: 20px;
     font-weight: bolder;
     color: #006747;
-    
+
 }
 
 
@@ -119,3 +125,35 @@ nav {
 
 /* navabar ends here  */
 /* _________________________________________________________________________________________________________ */
+
+
+/* 🟩🟦Hero Section🟦🟩 */
+.banner-section {
+    background: linear-gradient(to right, #13223A 0%, #066747 50%, #13223A 100%);
+    height: 240px;
+    padding: 40px 12px;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-imglogo {
+    max-width: 90px;
+}
+
+.banner h1{
+    font-size: 40;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.banner p{
+    font-size: 16;
+    font-weight: bold;
+    color: #FFFFFF;
+}
