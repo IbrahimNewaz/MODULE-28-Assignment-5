@@ -1,17 +1,121 @@
-*{
+/* 🟦🟦Project Shared styles🟦🟦 */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     width: 92%;
     height: 100%;
     margin: auto;
     border: solid 2px red;
 }
 
+/* fonts hind madurai  */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 
-img{
-    width: 100%;
+.hind-font {
+    font-family: "Hind Madurai", sans-serif;
+    font-style: normal;
 }
+
+/* fonts inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+/* _________________________________________________________________________________________________________ */
+
+/* 🟩🟦nav bar styles🟦🟩 */
+nav {
+    max-width: 1920px;
+    height: 100px;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-side img {
+    width: 65px;
+}
+
+.nav-h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #006747;
+    
+}
+
+
+/* right side */
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#red-hart {
+    width: 20px;
+    height: 20px;
+}
+
+#call-coin {
+    width: 20px;
+    height: 20px;
+}
+
+/* navbar button styles  */
+.bttn-1 {
+    width: 7.68rem;
+    height: 3.25rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #000000;
+    padding: 12px 12px;
+    margin: 10 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #41FF6B50;
+    border: none;
+    border-radius: 50px;
+}
+
+.bttn-2 {
+    width: 7.68rem;
+    height: 3.25rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 12px 12px;
+    margin: 10 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #00A63E;
+    border: none;
+    border-radius: 50px;
+}
+
+/* navabar ends here  */
+/* _________________________________________________________________________________________________________ */
