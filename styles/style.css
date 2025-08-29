@@ -408,6 +408,7 @@
         flex-direction: column;
         align-items: center;
         padding: 16px 16px;
+        gap: 1.5rem;
 
     }
 
@@ -428,6 +429,8 @@
         box-shadow: gray 0 8px 10px;
 
     }
-}
-/* Moble responsive Done in here */
 
+    /* Hotline call section  */
+}
+
+/* Moble responsive Done in here */
