@@ -117,7 +117,6 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
     background-color: #00A63E;
     border: none;
     border-radius: 50px;
@@ -295,21 +294,27 @@
     box-shadow: gray 0 8px 10px;
     border-radius: 14px;
 }
-.history-box{
+
+.history-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.history-box h3{
+
+.history-box h3 {
     font-size: 16px;
     font-weight: bold;
     color: #111111;
 }
 
-.historyClear-btn{
+.history-box span {
+    color: #5C5C5C90;
+}
+
+.historyClear-btn {
     width: 100px;
-    height: 50px;
+    height: 45px;
     /* padding: 24px 16px; */
     border-radius: 50px;
     border: none;
@@ -317,7 +322,55 @@
     background-color: #00A63E;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+/* Ends of hotline card and histroy section */
+/* ________________________________________________________________________________________________________ */
 
 
+/* 🟩🟩responsive task🟩🟩 */
 
+/* for mobile responsive */
+@media screen and (max-width: 576px) {
+
+    /* Nav Bar Responsiv */
+    .navbar {
+        max-width: 540px;
+        margin-top: auto;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .right-side {
+        gap: 14px;
+    }
+
+    .bttn-1 {
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 0.8rem;
+
+        padding: 10px 10px;
+        margin: 8px 10px;
+        border-radius: 30px;
+    }
+
+    .bttn-2 {
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 0.8rem;
+
+        padding: 10px 10px;
+        margin: 8px 10px;
+        border-radius: 30px;
+    }
+    /* Nav Bar Responsiv Ends Here*/
 }
