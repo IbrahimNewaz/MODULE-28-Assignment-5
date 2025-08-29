@@ -17,8 +17,6 @@ for (const icon of hartIcons) {
 
 // 🟩🟦 Nav bar Hotline Call Coin Charge counting Functionalities 🟦🟩 //
 
-// 🚩 this below code is ok // 
-
 const emrCallButtons = document.getElementsByClassName('call-Button');
 const coinCountDisplay = document.getElementById('coin-Count');
 let totalcoinCount = 100;
@@ -48,31 +46,7 @@ for (const button of emrCallButtons) {
 }
 
 
-// 🟩🟦 Copy part 🟦🟩 //
-// document.addEventListener("DOMContentLoaded", function () {
-
-//     const buttons = document.querySelectorAll(".copy-Button");
-//     for (const button of buttons) {
-//         button.addEventListener("click", function () {
-//             const card = button.closest(".EmergencyNumber");
-
-//             const textElement = card.querySelector(".hotline-number h3");
-
-//             const textToCopy = textElement.innerText;
-
-//             navigator.clipboard.writeText(textToCopy)
-
-//                 .then(function () {
-//                     alert("The number has been copied. " + textElement.innerText);
-//                 })
-//                 .catch(function () {
-//                     alert("Error Cant Copy");
-//                 });
-//         });
-//     }
-// });
-
-
+// 🟩🟦 Copy part counting Functionalities  🟦🟩 //
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".copy-Button");
     const navbarCopyCounter = document.getElementById("copy-count");
