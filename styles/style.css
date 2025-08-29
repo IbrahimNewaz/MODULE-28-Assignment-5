@@ -9,8 +9,8 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-
 }
+
 
 /* fonts hind madurai  */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
@@ -147,13 +147,152 @@
     max-width: 90px;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 40;
     font-weight: bolder;
     color: #FFFFFF;
 }
-.banner p{
+
+.banner p {
     font-size: 16;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+/* hero section ends here */
+/* _______________________________________________________________________________________________________ */
+
+/* 🟩🟦hotline and history section 🟦🟩 */
+.container-hotline {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #41FF6B10;
+}
+
+.hotline-callandhistoy {
+    max-width: 1800px;
+    max-height: 1140;
+    border: solid 2px crimson;
+    padding: 48px 62px;
+}
+
+.hotline-callandhistoy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+/* card section magerment */
+
+
+.hotline-Call {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 20px;
+}
+
+.EmergencyNumber {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 300px;
+    padding: 30px 30px;
+    border-radius: 12px;
+    box-shadow: gray 0 8px 16px;
+
+}
+
+.card-topIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardIcon {
+    width: 32px;
+}
+
+.card-ttl h3 {
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.card-ttl h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5C5C5C;
+}
+
+.hotline-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hotline-number h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+}
+
+
+
+.cardBtn {
+    width: 60px;
+    height: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    padding: 8px 6px;
+    border-radius: 16px;
+}
+
+.copyANDcall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 24px;
+}
+
+.copy-Button {
+    width: 160px;
+    height: 40px;
+    padding: 14px 16px;
+
+    border-radius: 8px;
+    border: solid 1px grey;
+    background-color: #FFFFFF;
+    color: #5C5C5C;
+    font-size: 16px;
+}
+
+.call-Button {
+    width: 160px;
+    height: 40px;
+    padding: 14px 16px;
+
+    border-radius: 8px;
+    border: none;
+    background-color: #00A63E;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+/* call history part*/
+.call-History{
+    width: 400px;
+    height: 1140px;
+    padding: 24px 24px;
+    background-color: #00A63E;
 }
