@@ -171,25 +171,22 @@
     background-color: #41FF6B10;
 }
 
+
+
 .hotline-callandhistoy {
     max-width: 1800px;
-    max-height: 1140;
-    border: solid 2px crimson;
-    padding: 48px 62px;
-}
-
-.hotline-callandhistoy{
+    max-height: 1140px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.8rem;
+    padding: 24px 24px;
+
+
 }
 
 /* card section magerment */
 
 
 .hotline-Call {
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -202,7 +199,7 @@
     height: 300px;
     padding: 30px 30px;
     border-radius: 12px;
-    box-shadow: gray 0 8px 16px;
+    box-shadow: gray 0 8px 10px;
 
 }
 
@@ -247,7 +244,7 @@
 
 
 .cardBtn {
-    width: 60px;
+    width: 80px;
     height: 30px;
     background-color: #F2F2F2;
     border: none;
@@ -290,9 +287,9 @@
 
 
 /* call history part*/
-.call-History{
+.call-History {
     width: 400px;
-    height: 1140px;
+    height: 1040px;
     padding: 24px 24px;
     background-color: #00A63E;
 }
